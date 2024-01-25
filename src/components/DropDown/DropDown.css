@@ -1,15 +1,20 @@
 .dropdown {
-    width: 200px;
-    height: 40px;
-    padding: 0 10px;
+    background: #007BFF;
+    color: white;
     border: none;
-    border-radius: 10px;
-    background: #f0f0f0;
-    appearance: none;
+    padding: 15px 30px;
     font-size: 16px;
+    border-radius: 4px;
+    width: 200px; /* Mantén el ancho que ya tenías */
+    height: 40px; /* Mantén la altura que ya tenías */
+    appearance: none; /* Mantén la apariencia que ya tenías */
+}
+
+.dropdown:hover {
+    background: #0056b3;
 }
 
 .dropdown:focus {
     outline: none;
-    box-shadow: 0 0 0 3px rgba(21, 156, 228, 0.4);
+    box-shadow: 0 0 0 3px rgba(21, 156, 228, 0.4); /* Mantén el foco que ya tenías */
 }
