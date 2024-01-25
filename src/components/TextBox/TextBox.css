@@ -1,0 +1,58 @@
+input[type="text"] {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.dropdown {
+    width: 200px;
+    height: 40px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 10px;
+    background: #f0f0f0;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-size: 16px;
+}
+
+.dropdown:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(21, 156, 228, 0.4);
+}
+
+.button {
+    background: #0056b3;
+    color: #0056b3;
+    cursor: pointer;
+    padding: 0 20px; 
+}
+
+.button:hover {
+    background: #fcfcfc;
+}
+
+.input, .dropdown, .button {
+    height: 40px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 10px;
+    background: #f0f0f0;
+    font-size: 16px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.input:focus, .dropdown:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(21, 156, 228, 0.4);
+}

@@ -1,0 +1,15 @@
+.DailyTasks {
+    width: 30%; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    order: 1;
+}
+
+.task-container {
+    max-width: 100%;
+}
+
+.task-text {
+    white-space: normal;
+}

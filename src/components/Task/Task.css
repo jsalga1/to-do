@@ -1,0 +1,12 @@
+.task {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+}
+
+.task-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}

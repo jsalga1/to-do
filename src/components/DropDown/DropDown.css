@@ -1,0 +1,15 @@
+.dropdown {
+    width: 200px;
+    height: 40px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 10px;
+    background: #f0f0f0;
+    appearance: none;
+    font-size: 16px;
+}
+
+.dropdown:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(21, 156, 228, 0.4);
+}

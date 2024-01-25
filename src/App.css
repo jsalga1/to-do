@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  max-height: 100vh;
+  overflow: hidden;
+  background-color: #fba91d;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #fba91d;
+  color: #353c51;
+}
+
+.app .header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fba91d;
+  color: #353c51;
+  position: fixed;
+  top: 0;
+  width: 100%; 
+}
+
+.header h1 {
+  text-align: center;
+  width: 100%;
+}
+
+body .dark-mode {
+  background-color: #353c51;
+  color: #fba91d;
+}
+
+body .dark-mode .header {
+  background-color: #353c51;
+  color: #fba91d;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #fba91d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tasks {
+  display: flex;
+  justify-content: space-around;
+}
+
+.DailyTasks, .WeeklyTasks, .MonthlyTasks {
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 40px;
+  height: 600px;
+  width: 500px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  word-wrap: break-word;
+  white-space: normal;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.task-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.task-text {
+  width: 100%;
+  word-break: break-word;
+}
